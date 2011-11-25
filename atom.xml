@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://charleehu.github.com/atom.xml" rel="self"/>
   <link href="http://charleehu.github.com/"/>
-  <updated>2011-11-25T18:57:09+08:00</updated>
+  <updated>2011-11-25T19:25:49+08:00</updated>
   <id>http://charleehu.github.com/</id>
   <author>
     <name><![CDATA[charleehu]]></name>
@@ -18,7 +18,47 @@
     <link href="http://charleehu.github.com/blog/2011/11/25/test-page/"/>
     <updated>2011-11-25T18:30:00+08:00</updated>
     <id>http://charleehu.github.com/blog/2011/11/25/test-page</id>
-    <content type="html"><![CDATA[<p>plain</p>
+    <content type="html"><![CDATA[<p>Generate &amp; Preview</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate   # Generates posts and pages into the public directory
+</span><span class='line'>rake watch      # Watches source/ and sass/ for changes and regenerates
+</span><span class='line'>rake preview    # Watches, and mounts a webserver at http://localhost:4000</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Blog Posts</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["title"]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>How to Update</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git pull octopress master     # Get the latest Octopress
+</span><span class='line'>bundle install                # Keep gems updated
+</span><span class='line'>rake update_source            # update the template's source
+</span><span class='line'>rake update_style             # update the template's style
+</span><span class='line'>rake deploy             # deploy to github</span></code></pre></td></tr></table></div></figure>
+
+
+<p>
+B
+B
+B
+B
+B
+B
+B
+B</p>
+
+<p>plain</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ sudo make me a sandwich</span></code></pre></td></tr></table></div></figure>
