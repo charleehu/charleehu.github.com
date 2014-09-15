@@ -19,7 +19,7 @@ CTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Prop
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>图片的地址</string>
+<string>http://blog.s135.com/demo/ios/jhsmyt_logo.png</string>
 </dict>
 <dict>
 <key>kind</key>
@@ -27,7 +27,7 @@ CTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/Prop
 <key>needs-shine</key>
 <true/>
 <key>url</key>
-<string>图片的地址</string>
+<string>http://blog.s135.com/demo/ios/jhsmyt_logo.png</string>
 </dict>
 </array>
 <key>metadata</key>
