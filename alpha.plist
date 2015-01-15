@@ -19,7 +19,7 @@
                    <key>needs-shine</key>
                    <true/>
                    <key>url</key>
-                   <string>http://ranch.tk/wiki/images/Icon-114.png</string>
+                   <string>http://223.252.196.78/static/alpha/Icon@2x.png</string>
                </dict>
 	       <dict>
                    <key>kind</key>
@@ -27,12 +27,12 @@
                    <key>needs-shine</key>
                    <true/>
                    <key>url</key>
-                   <string>http://ranch.tk/wiki/images/Icon-114.png</string>
+                   <string>http://223.252.196.78/static/alpha/Icon@2x.png</string>
                </dict>
            </array><key>metadata</key>
            <dict>
                <key>bundle-identifier</key>
-               <string>com.netease.GodsWrath</string>
+               <string>com.netease.yxzdy</string>
                <key>bundle-version</key>
                <string>0.0.1</string>
                <key>kind</key>
